@@ -31,6 +31,31 @@ object GameMap {
       )
       startingLocation = new GridLocation(1, 10)
     }
+//    new GameMap {
+//      tiles = List(
+//        MapTile.generateRow("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"),
+//        MapTile.generateRow("O----------------------------O"),
+//        MapTile.generateRow("O----------------------------O"),
+//        MapTile.generateRow("O----------------------------O"),
+//        MapTile.generateRow("O----------------------------O"),
+//        MapTile.generateRow("O-------------OOOO-----------O"),
+//        MapTile.generateRow("O---------OOOOOOOOOOO--------O"),
+//        MapTile.generateRow("O--------OOO------OOOOOO-----O"),
+//        MapTile.generateRow("O-------OO----------OOO------O"),
+//        MapTile.generateRow("O-------OOO----------OG------O"),
+//        MapTile.generateRow("O--------OO---------OOO------O"),
+//        MapTile.generateRow("O---------OOO-------OOO------O"),
+//        MapTile.generateRow("O--------------OOOOOOOOOOOO--O"),
+//        MapTile.generateRow("O---------OOOOOOOO-----------O"),
+//        MapTile.generateRow("O---------------OOOOO--------O"),
+//        MapTile.generateRow("O---------------OOOOO--------O"),
+//        MapTile.generateRow("O----------------------------O"),
+//        MapTile.generateRow("O----------------------------O"),
+//        MapTile.generateRow("O----------------------------O"),
+//        MapTile.generateRow("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO")
+//      )
+//      startingLocation = new GridLocation(15, 4)
+//    }
   }
 
 }

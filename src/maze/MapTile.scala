@@ -1,5 +1,6 @@
 package maze
 
+
 object MapTile {
 
   def generateRow(row: String): List[MapTile] = {
@@ -13,7 +14,6 @@ object MapTile {
       case "O" => new MapTile("wall", false)
     }
   }
-
 }
 
 class MapTile(val tileType: String, val passable: Boolean) {
